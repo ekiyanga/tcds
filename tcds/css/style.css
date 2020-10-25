@@ -1,0 +1,375 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: #F0F8FF;
+	margin: 0;
+	color: black;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana,sans-serif;
+	font-size:1rem;
+	line-height: 1.5;
+}
+header{
+  text-align: center;
+}
+a{
+	color: #dd571c;
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+  color: #0A1172;
+}
+h2{
+  color: black;
+  font-size: 1.2rem;
+  line-height: 2rem; 
+}
+h3{
+	font-size: 1.2rem;
+	color: #dd571c;
+}
+.navbar{
+	width: 100%;
+}
+.navbar-toggler{
+	color: white;
+	background: #225470;
+	font: 8px;
+	padding: 1rem;
+}
+.main-wrapper{
+  min-height: 300px;
+  height: auto;
+}
+.social-menu{
+	padding: 10px;
+}
+.social-menu .nav-link{
+	color: #0A1172;
+}
+.navbar-brand img{
+	width: 200px;
+}
+#main-nav{
+  background: #0A1172;
+}
+.dropdown-toggle{
+  background: #0A1172;
+}
+#main-nav .nav-item{
+	font-style: 'Segoe UI';
+	font-size: 18px;
+	padding-right: 1rem;
+}
+#main-nav .nav-link{
+	color: #FFF;
+}
+#main-nav .nav-link:hover{
+}
+.menu-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 2;
+  display: none;
+}
+footer{
+  background: #333;
+  color: white;
+}
+footer h2{
+  color: white;
+  border-bottom: 2px solid #FFF;
+  font-size: 1.2rem;
+  line-height: 2rem;  
+}
+#myCarousel img{
+  width: 100%;
+
+}
+
+
+.card-body{
+	background: #dd571c;
+  color: white;
+}
+.card-title{
+  background: white;
+  color:#225470;
+  font-weight: bold;
+  border-radius: 15px;
+}
+.card-text{
+	color: #FFFFFF;
+}
+
+/*Slide show*/
+#myCarousel{
+	min-height: 450px;
+	max-height: 450px;
+}
+#myCarousel img{
+	width: 100%;
+	min-height: 450px;
+	max-height: 450px;
+	object-fit: cover;
+}
+.carousel-caption{
+	background: #333333;
+}
+.carousel-caption h1{
+	color: #FFFFFF;
+}
+
+/*EVEnt Image*/
+.card-img-top{
+	height: 300px;
+	object-fit: cover;	
+}  
+.card-img-top:hover{
+   transform: scale(1.1);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/*Music list*/
+.table {
+	width: 100%;
+	margin-top: 2rem;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.table thead th {
+	text-transform: uppercase;
+	padding: 0.8rem;
+}
+
+.table tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+.table tbody tr td {
+	color: #dd571c;
+	padding: 0.8rem 1.2rem;
+	text-align: center;
+}
+
+.table tbody tr td:first-child {
+	text-align: left;
+}
+
+.table tbody tr:nth-child(odd) {
+	color: #dd571c;
+	background: #d3d3d3;
+}
+
+
+/*Social Media Icons*/
+.fa-facebook-color {
+    color: #3b5998
+}
+.fa-twitter-color {
+    color: #00aced
+}
+.fa-youtube-color {
+    color: #bb0000
+}
+.fa-instagram-color {
+    color: #517fa4;
+}
+.fa-spotify-color {
+    color: #1ED760;
+}
+
+/*CONTACT SECTION*/
+.contact{
+	background: #225470;
+  color:#dd571c;
+}
+.contact form{
+	background: white;
+	padding: 1em;
+}
+.contact .btn{
+	background: #FC4A1A;
+	border-color: #FC4A1A;
+}
+.contact h2{
+	color: white;
+	border-bottom: 2px solid white;
+}
+.social-links i{
+	padding-right: 1rem;
+}
+.bg-contact {
+    background: #dd571c url("/images/gwamaka.jpg") center no-repeat;
+    margin-bottom: 0px;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;    
+}
+.bg-news {
+    background: #dd571c url("../images/newalbum.jpg") center no-repeat;
+    margin-bottom: 0px;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;    
+}
+.bg-about {
+    background: #dd571c url("../images/slide3.jpg") center no-repeat;
+    margin-bottom: 0px;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;    
+}
+.bg-event {
+    background: #dd571c url("../images/slide2.jpg") center no-repeat;
+    margin-bottom: 0px;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;     
+}
+.bg-contact {
+    background: #dd571c url("../images/slide1.jpg") center no-repeat;
+    margin-bottom: 0px;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;     
+}
+.jumbotron h3 {
+	margin-top:0;
+	color:#333;
+}
+.jumbotron {
+  position:relative;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.jumbotron .container {
+  position:relative;
+  z-index:2;
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+}
+
+
+
+
+
+
+/*contact us page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****RESPONSIVENESS****/
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+
+.menu-btn {
+    display: block;
+  }
+
+  .menu-btn:hover {
+    opacity: 0.5;
+  }
+
+  .main-nav ul.right-menu {
+    margin-right: 50px;
+  }
+
+  .main-nav ul.main-menu {
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: #f2f2f2;
+    width: 50%;
+    height: 100%;
+    border-right: #ccc 1px solid;
+    opacity: 0.9;
+    padding: 30px;
+    transform: translateX(-500px);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .main-nav ul.main-menu li {
+    padding: 10px;
+    border-bottom: #ccc solid 1px;
+    font-size: 14px;
+  }
+
+  .main-nav ul.main-menu li:last-child {
+    border-bottom: 0;
+  }
+
+  .main-nav ul.main-menu.show {
+    transform: translateX(-20px);
+  }
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+
+	}
+}
